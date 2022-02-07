@@ -18,10 +18,7 @@ print('Se deseja encerrar o programa, digite 3.')
 time.sleep(.5)
 entrada = input('Escolha uma das opções: ')
 
-if (entrada != 1 or entrada != 2 or entrada != 3):
-    print('Favor entrar apenas com números referentes às opções!')
 if (entrada == '1'):
-    
     usuario = input('Entre com seu nome de usuário: ')
     if(usuario not in Cadastro):
         print('Usuário não cadastrado!')
@@ -57,3 +54,4 @@ if (entrada == '3'):
     print('Até logo!')
     time.sleep(.5)
     exit()
+
