@@ -1,57 +1,74 @@
 #LOGIN SIMPLES
+from cmath import log
+from json.tool import main
 import time
+from pprint import pprint
 
 usr = ''
 pwd = ''
-Cadastro = {'Marcos':'1234'}
+lista_cadastro = {'Marcos':'1234'}
 passe = ''
 rept = ''
 
+def print_slow(text,time_slow= 0.5):
+    print(text)
+    time.sleep(time_slow)
 
-print('SEJA BEM VINDO À MARCOLÂNDIA!')
-time.sleep(.5)
-print('Se você já possui uma conta, digite 1.')
-time.sleep(.5)
-print('Se deseja cadastrar uma nova conta, digite 2.')
-time.sleep(.5)
-print('Se deseja encerrar o programa, digite 3.')
-time.sleep(.5)
-entrada = input('Escolha uma das opções: ')
+def menu_entrada(): 
+    print_slow('\n\n\nSEJA BEM VINDO À MARCOLÂNDIA!')
+    print_slow('Se você já possui uma conta, digite 1.')
+    print_slow('Se deseja cadastrar uma nova conta, digite 2.')
+    print_slow('Se deseja encerrar o programa, digite qualquer outro número.')
+    return input('Escolha uma das opções: ')
 
-if (entrada == '1'):
-    usuario = input('Entre com seu nome de usuário: ')
-    if(usuario not in Cadastro):
-        print('Usuário não cadastrado!')
+def cadastro():
+    novoUser = input('\n\n\nEntre com o nome de usuário: ')
+    counter = 0
+    while(novoUser in lista_cadastro):
+        counter +=1
+        print_slow('\n\tNome de usuário já existente! Favor escolher outro nome!')
+        novoUser = input('Entre com outro nome de usuário: ')
+        if counter == 3:
+            print_slow('\n\n\tNumero de tentativas excedido')
+    passwd = input('Escolha sua senha: ')
+    rept = input('Repita sua senha: ')
+    if (passwd != rept):
+        print_slow('\n\tAs duas senhas devem ser a mesma!\n\n')
+        return
+    lista_cadastro[novoUser] = passwd
+    print_slow(lista_cadastro)
+
+def login():
+    usuario = input('\n\n\nEntre com seu nome de usuário: ')
+    if(usuario not in lista_cadastro):
+        print('\n\tUsuário não cadastrado!')
+        return
+    
+    if usuario not in lista_cadastro:
+        print('\n\n\t\tNão encontrado')
+        return
+    passwd = input('Entre com sua senha: ')
+    if (passwd == lista_cadastro[usuario]):
+        print('\n\tConectado!')
+        return
+    print('\n\tSenha incorreta!')
+
+
+
+while True:
+    entrada = menu_entrada()
+
+    if (entrada == '1'):
+        login()
+
+    elif (entrada == '2'):
+        cadastro()
+        
+
     else:
-        pw = Cadastro[usuario]
-        if usuario in Cadastro:
-            paswd = input('Entre com sua senha: ')
-            if (paswd == pw):
-                print('Conectado!')
-                import boxmail
-            else:
-                print('Senha incorreta!')
-
-if (entrada == '2'):
-    novoUser = input('Entre com o nome de usuário: ')
-    if(novoUser in Cadastro):
-        print('Nome de usuário já existente! Favor escolher outro nome!')
-        input('Entre com outro nome de usuário: ')
-    else:
-        passe = input('Escolha sua senha: ')
-        rept = input('Repita sua senha: ')
-        if (passe != rept):
-            print('As duas senhas devem ser a mesma!')
-        else:
-            Cadastro[novoUser] = passe
-            print(Cadastro)
-
-if (entrada == '3'):
-    print('A MARCOLÂNDIA AGRADECE A SUA VISITA!')
-    time.sleep(.5)
-    print('Esperamos vê-lo novamente em breve')
-    time.sleep(.5)
-    print('Até logo!')
-    time.sleep(.5)
-    exit()
+        print_slow('\n\n\nA MARCOLÂNDIA AGRADECE A SUA VISITA!')
+        print_slow('Esperamos vê-lo novamente em breve')
+        print_slow('Até logo!\n\n\n')
+        break
+    time.sleep(2)
 
