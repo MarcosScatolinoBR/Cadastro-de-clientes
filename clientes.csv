@@ -1,0 +1,58 @@
+nome,cpf,telefone,email,endereco,número,bairro,cidade,estado
+Maria Silva,12345678910,11987654321,maria@gmail.com,Rua A,123,Bairro X,São Paulo,SP
+João Oliveira,98765432100,21987654321,joao@yahoo.com,Avenida B,456,Bairro Y,Rio de Janeiro,RJ
+Ana Souza,23456789011,31987654321,ana@hotmail.com,Rua C,789,Bairro Z,Belo Horizonte,MG
+Pedro Santos,34567890122,41987654321,pedro@outlook.com,Rua D,987,Bairro W,Curitiba,PR
+Carla Lima,45678901233,51987654321,carla@live.com,Avenida E,654,Bairro V,Porto Alegre,RS
+Leticia Rocha,12345678910,11987654321,leticiarocha@gmail.com,Rua A,123,Bairro X,São Paulo,SP
+Lucas Santos,98765432100,21987654321,lucassantos@yahoo.com,Avenida B,456,Bairro Y,Rio de Janeiro,RJ
+Fernanda Oliveira,23456789011,31987654321,fernanda@hotmail.com,Rua C,789,Bairro Z,Belo Horizonte,MG
+Carlos Silva,34567890122,41987654321,carlossilva@outlook.com,Rua D,987,Bairro W,Curitiba,PR
+Juliana Lima,45678901233,51987654321,julianalima@live.com,Avenida E,654,Bairro V,Porto Alegre,RS
+Amanda Oliveira,12345678910,11987654321,amandaoliveira@gmail.com,Rua A,123,Bairro X,São Paulo,SP
+Guilherme Santos,98765432100,21987654321,guilhermesantos@yahoo.com,Avenida B,456,Bairro Y,Rio de Janeiro,RJ
+Patricia Souza,23456789011,31987654321,patriciasouza@hotmail.com,Rua C,789,Bairro Z,Belo Horizonte,MG
+Roberto Silva,34567890122,41987654321,robertosilva@outlook.com,Rua D,987,Bairro W,Curitiba,PR
+Mariana Lima,45678901233,51987654321,marianalima@live.com,Avenida E,654,Bairro V,Porto Alegre,RS
+Laura Santos,12345678910,11987654321,laurasantos@gmail.com,Rua A,123,Bairro X,São Paulo,SP
+Jose Anchieta,10010010100,11987654321,anchieta@padre.com,Rua Z,22,Centro,São Paulo,SP
+Luna Costa,45698712355,11987654321,luna@gmail.com,Pitoquinha,456,Centro,Varginha,MG
+Manuel Oliveira,76543210123,11987654321,manueloliveira@yahoo.com,Avenida F,987,Bairro U,Manaus,AM
+Rita Pereira,67890123456,21987654321,ritapereira@hotmail.com,Rua G,789,Bairro T,Florianópolis,SC
+Fernando Souza,78901234567,31987654321,fernandosouza@gmail.com,Avenida H,654,Bairro S,Goiânia,GO
+Sandra Lima,89012345678,41987654321,sandralima@yahoo.com,Rua I,321,Bairro R,Fortaleza,CE
+Leandro Santos,90123456789,51987654321,leandrosantos@hotmail.com,Avenida J,123,Bairro Q,Recife,PE
+Beatriz Silva,12345678910,11987654321,beatrizsilva@gmail.com,Rua K,456,Bairro P,São Paulo,SP
+Eduardo Oliveira,98765432100,21987654321,eduardooliveira@yahoo.com,Avenida L,789,Bairro O,Rio de Janeiro,RJ
+Tatiana Costa,23456789011,31987654321,tatianacosta@hotmail.com,Rua M,456,Bairro N,Belo Horizonte,MG
+Felipe Lima,34567890122,41987654321,felipelima@outlook.com,Avenida N,789,Bairro M,Curitiba,PR
+Camila Santos,45678901233,51987654321,camilasantos@live.com,Rua O,123,Bairro L,Porto Alegre,RS
+Gustavo Souza,12345678910,11987654321,gustavosouza@gmail.com,Avenida P,456,Bairro K,São Paulo,SP
+Isabela Oliveira,98765432100,21987654321,isabelaoliveira@yahoo.com,Rua Q,789,Bairro J,Rio de Janeiro,RJ
+Marcos Silva,23456789011,31987654321,marcossilva@hotmail.com,Avenida R,456,Bairro I,Belo Horizonte,MG
+Renata Lima,34567890122,41987654321,renatalima@outlook.com,Rua S,789,Bairro H,Curitiba,PR
+Rodrigo Santos,45678901233,51987654321,rodrigosantos@live.com,Avenida T,123,Bairro G,Porto Alegre,RS
+Flavia Oliveira,12345678910,11987654321,flaviaoliveira@gmail.com,Rua U,456,Bairro F,São Paulo,SP
+Thiago Costa,98765432100,21987654321,thiagocosta@yahoo.com,Avenida V,789,Bairro E,Rio de Janeiro,RJ
+Renata Silva,23456789011,31987654321,renatasilva@hotmail.com,Rua W,456,Bairro D,Belo Horizonte,MG
+Ricardo Lima,34567890122,41987654321,ricardolima@outlook.com,Avenida X,789,Bairro C,Curitiba,PR
+Vanessa Santos,45678901233,51987654321,vanessasantos@live.com,Rua Y,123,Bairro B,Porto Alegre,RS
+Marcelo Souza,12345678910,11987654321,marcelosouza@gmail.com,Avenida Z,456,Bairro A,São Paulo,SP
+Joana Oliveira,98765432100,21987654321,joanaoliveira@yahoo.com,Rua AA,789,Bairro BB,Rio de Janeiro,RJ
+Renato Silva,23456789011,31987654321,renatosilva@hotmail.com,Avenida BB,456,Bairro CC,Belo Horizonte,MG
+Monica Lima,34567890122,41987654321,monicalima@outlook.com,Rua CC,789,Bairro DD,Curitiba,PR
+Roberta Santos,45678901233,51987654321,robertasantos@live.com,Avenida DD,123,Bairro EE,Porto Alegre,RS
+Carlos Souza,12345678910,11987654321,carlossouza@gmail.com,Rua EE,456,Bairro FF,São Paulo,SP
+Julio Oliveira,98765432100,21987654321,juliooliveira@yahoo.com,Avenida FF,789,Bairro GG,Rio de Janeiro,RJ
+Andrea Silva,23456789011,31987654321,andreasilva@hotmail.com,Rua GG,456,Bairro HH,Belo Horizonte,MG
+Fabio Lima,34567890122,41987654321,fabiolima@outlook.com,Avenida HH,789,Bairro II,Curitiba,PR
+Aline Santos,45678901233,51987654321,alinesantos@live.com,Rua II,123,Bairro JJ,Porto Alegre,RS
+Mariana Souza,12345678910,11987654321,marianasouza@gmail.com,Avenida JJ,456,Bairro KK,São Paulo,SP
+Rafael Oliveira,98765432100,21987654321,rafaeloliveira@yahoo.com,Rua KK,789,Bairro LL,Rio de Janeiro,RJ
+Camila Silva,23456789011,31987654321,camilasilva@hotmail.com,Avenida LL,456,Bairro MM,Belo Horizonte,MG
+Paulo Lima,34567890122,41987654321,paulolima@outlook.com,Rua MM,789,Bairro NN,Curitiba,PR
+Luciana Santos,45678901233,51987654321,lucianasantos@live.com,Avenida NN,123,Bairro OO,Porto Alegre,RS
+Felipe Souza,12345678910,11987654321,felipesouza@gmail.com,Rua OO,456,Bairro PP,São Paulo,SP
+Tatiane Oliveira,98765432100,21987654321,tatianeoliveira@yahoo.com,Avenida PP,789,Bairro QQ,Rio de Janeiro,RJ
+Bruna Silva,23456789011,31987654321,brunasilva@hotmail.com,Rua QQ,456,Bairro RR,Belo Horizonte,MG
+Alexandre Lima,34567890122,41987654321,alexandrelima@outlook.com,Avenida RR,789,Bairro SS,Curitiba,PR
